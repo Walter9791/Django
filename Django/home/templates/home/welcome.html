@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{%block content%}
+    <header><title>Fantasy Golf</title></header>
+    
+    <body><h1>Welcome to Fantasy Golf, score high.</h1>
+    <p>Today is {{today}}</p>
+    <a href = "{% url 'notes.list' %}" class = 'btn btn-primary'> Button for Notes</a>
+    
+    </body>
+{%endblock%}
